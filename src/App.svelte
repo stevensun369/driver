@@ -20,7 +20,7 @@
 
 		try {
 			const {data} = await axios.get(
-				`http://live.elmtree.ro/send?long=${$long}&lat=${$lat}`
+				`https://api.elmtree.ro/send?long=${$long}&lat=${$lat}`
 			)
 			// alert($lat + " " + $long)
 
